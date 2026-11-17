@@ -1,0 +1,23 @@
+{
+  "name": "elight",
+  "version": "1.0.0",
+  "description": "Elight Desktop Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^45.3.3"
+  },
+  "dependencies": {
+    "uiohook-napi": "^1.5.5"
+  },
+  "allowScripts": {
+    "electron@40.10.6": true,
+    "uiohook-napi@1.5.5": true
+  }
+}
